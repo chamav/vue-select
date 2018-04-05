@@ -357,7 +357,7 @@
         <span aria-hidden="true">&times;</span>
       </button>
 
-      <slot name="open-indicator">
+      <slot name="indicator">
         <i v-if="!noDrop" ref="openIndicator" role="presentation" class="open-indicator"></i>
       </slot>
 
